@@ -1,0 +1,16 @@
+.grade-holder {
+  display: flex;
+}
+
+.grade {
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 1px solid #808080;
+}
+
+.fill {
+  border: none;
+  background-color: #4d4d4d;
+}

@@ -1,0 +1,19 @@
+.title-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-weight: normal;
+  font-weight: 500;
+}
+
+.description {
+  font-weight: lighter;
+  margin: 0;
+}
+
+.title-box:last-child .title {
+  margin-bottom: 0;
+}

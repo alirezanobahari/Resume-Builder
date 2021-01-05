@@ -1,0 +1,15 @@
+.side-bar {
+  position: relative;
+  width: 280px;
+  height: 100%;
+  background-color: #e6e6e6;
+  flex-shrink: 0;
+}
+
+.side-bar a {
+  color: black;
+}
+
+.detail-box-holder {
+  padding: 230px 30px 30px 40px;
+}

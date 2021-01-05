@@ -1,0 +1,26 @@
+.detail-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.detail-box h4 {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.detail-box h4::after {
+  position: absolute;
+  content: "";
+  bottom: -10px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #262626;
+}
+
+.detail-box-content {
+  display: flex;
+  flex-direction: column;
+}

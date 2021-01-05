@@ -1,0 +1,22 @@
+.skill-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.skill-item:last-child {
+  margin-bottom: 0;
+}
+
+.title {
+  font-weight: 200;
+  margin-bottom: 5px;
+}
