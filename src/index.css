@@ -24,33 +24,3 @@ body {
   size: auto;
   margin: 0mm;
 }
-
-@font-face {
-  font-family: spartan;
-  src: url("assets/fonts/spartan/otf/SpartanMB-Regular.otf") format("truetype");
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: spartan;
-  src: url("assets/fonts/spartan/otf/SpartanMB-Medium.otf") format("truetype");
-  font-weight: medium;
-}
-
-@font-face {
-  font-family: spartan;
-  src: url("assets/fonts/spartan/otf/SpartanMB-Light.otf") format("truetype");
-  font-weight: thin;
-}
-
-@font-face {
-  font-family: spartan;
-  src: url("assets/fonts/spartan/otf/SpartanMB-Bold.otf") format("truetype");
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: spartan;
-  src: url("assets/fonts/spartan/otf/SpartanMB-SemiBold.otf") format("truetype");
-  font-weight: 500;
-}

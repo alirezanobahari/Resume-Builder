@@ -13,45 +13,32 @@ export const user: User = {
     jobTitle: "Front-end Developer",
   },
   sidebarProps: {
-    avatar:
-      "https://i.picsum.photos/id/723/200/300.jpg?hmac=EtJwe3DxhZ1GDiNghxWaO92pvcPcjg02wJzc7Qj7Lr0",
-    phoneNumber: "+989364500236",
+    avatar: `images/avatar.jpg`,
+    phoneNumber: "+98 936 450 0236",
     email: "alireza.ra1996@gmail.com",
-    socialLinks: [
-      {
-        title: "LinkedIn",
-        link: "https://www.linkedin.com/in/alireza-rashideh-nobahari-a748b511b",
-      },
-    ],
+    skype: "live:alireza.ra1996_1",
     skills: [
-      {
-        title: "TypeScript",
-        grade: 4,
-      },
-      {
-        title: "JavaScript",
-        grade: 4,
-      },
-      {
-        title: "HTML/CSS",
-        grade: 4,
-      },
-      {
-        title: "ReactJs",
-        grade: 4,
-      },
-      {
-        title: "NextJs",
-        grade: 3,
-      },
-      {
-        title: "Webpack",
-        grade: 3,
-      },
-      {
-        title: "Git",
-        grade: 4,
-      },
+      "TypeScript",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Sass",
+      "JSS",
+      "React",
+      "Next.js",
+      "Redux",
+      "Redux-Saga",
+      "Material-UI",
+      "Ant-Design",
+      "Jest",
+      "Cypress",
+      "GraphQL",
+      "webpack",
+      "Scrum",
+      "Git",
+      "Git-Flow",
+      "Azure DevOps",
+      "PM2",
     ],
     languages: [
       {
@@ -60,18 +47,18 @@ export const user: User = {
       },
       {
         title: "English",
-        grade: 3,
+        grade: 4,
       },
     ],
   },
   skillSummary: (
     <ul>
       <li>
-        <strong>2</strong> years of experience in <strong>UI/UX</strong>{" "}
+        <strong>3</strong> years of experience in <strong>UI/UX</strong>{" "}
         developing web applications and interactive software products using{" "}
         <strong>HTML 5</strong>, <strong>CSS 3</strong>,{" "}
         <strong>TypeScript</strong>, <strong>JavaScript</strong>,{" "}
-        <strong>ReactJs</strong>, and <strong>ReduxJs</strong>.
+        <strong>React</strong>, and <strong>Next.js</strong>.
       </li>
       <li>
         Experienced in developing <strong>Responsive</strong> and{" "}
@@ -94,30 +81,26 @@ export const user: User = {
   ),
   professionalExperiences: [
     {
-      jobTitle: "ReactJs Developer",
+      jobTitle: "Front-End Developer",
       company: "Techclass",
       location: "Remote, Finland",
-      startDate: "Mar 2020",
+      startDate: "Apr 2020",
       endDate: "Present",
+      description: (
+        <p>
+          Techclass is an <strong>LMS</strong> startup with clients from
+          universities like <strong>Laurea</strong> and{" "}
+          <strong>Metropolia</strong> and a partnership with{" "}
+          <strong>Microsoft</strong>.
+        </p>
+      ),
       skillSummary: (
         <ul>
           <li>
-            Involved in an <strong>LMS</strong> project with clients from
-            universities like <strong>Laurea</strong> and{" "}
-            <strong>Metropolia</strong> and a partnership with{" "}
-            <strong>Microsoft</strong>.
-          </li>
-          <li>
-            Worked exclusively on the front-end project using{" "}
-            <strong>Typescript</strong>, <strong>ReactJs</strong>,{" "}
-            <strong>Redux</strong>, <strong>Redux-Saga</strong>,{" "}
-            <strong>Material-UI</strong>, and <strong>GraphQL</strong>.
-          </li>
-          <li>
-            Design testing plans and bring over <strong>50%</strong> code
-            coverage using <strong>Jest</strong> and write over{" "}
-            <strong>50</strong> E2E edge-case scenarios with{" "}
-            <strong>Cypress</strong> to bring reliable functionality.
+            Design testing plans, bring over <strong>50%</strong> code coverage
+            using <strong>unit tests</strong> and write over{" "}
+            <strong>50 E2E edge-case scenarios</strong> to get reliable
+            functionality.
           </li>
           <li>
             Experience in debugging web applications using{" "}
@@ -129,26 +112,42 @@ export const user: User = {
             resources.
           </li>
           <li>
-            Worked closely with the Design team in developing wire-frames and
+            Worked closely with the Design team in developing wireframes and
             mock-ups using <strong>Figma</strong>.
           </li>
         </ul>
       ),
+      techStack: [
+        "TypeScript",
+        "HTML",
+        "JSS",
+        "React",
+        "Redux",
+        "Redux-Saga",
+        "Material-UI",
+        "Jest",
+        "Cypress",
+        "GraphQL",
+        "Git",
+        "Azure DevOps",
+      ],
     },
     {
       jobTitle: "Front-End Developer",
       company: "Hastnama",
       location: "Tehran",
-      startDate: "Feb 2019",
-      endDate: "Feb 2020",
+      startDate: "March 2018",
+      endDate: "March 2020 (2 yrs 1 mos)",
+      description: (
+        <p>
+          Hastnama is a Software Company dedicated to developing solutions
+          tailored to the needs of the E-commerce market.
+        </p>
+      ),
       skillSummary: (
         <ul>
           <li>
-            Worked extensively on <strong>JavaScript</strong>,
-            <strong>ReactJs</strong>, and <strong>NextJs</strong>.
-          </li>
-          <li>
-            Designed and developed plus <strong>3</strong> e-commerce admin
+            Designed and developed plus <strong>three</strong> e-commerce admin
             panels and web applications, which increased the company's income by{" "}
             <strong>130%</strong>.
           </li>
@@ -163,6 +162,19 @@ export const user: User = {
           </li>
         </ul>
       ),
+      techStack: [
+        "JavaScript",
+        "React",
+        "Next.js",
+        "HTML",
+        "CSS",
+        "Sass",
+        "Ant-Design",
+        "Redux",
+        "Redux-Saga",
+        "PM2",
+        "Git",
+      ],
     },
   ],
 };

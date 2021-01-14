@@ -1,8 +1,7 @@
 ul {
   margin: 0;
   padding-left: 30px;
-}
-
-strong {
-  font-weight: bold;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  list-style: square;
 }

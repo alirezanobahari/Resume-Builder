@@ -1,7 +1,14 @@
 .detail-box {
   display: flex;
   flex-direction: column;
-  margin-bottom: 30px;
+}
+
+.detail-box.normal {
+  margin-bottom: 10px;
+}
+
+.detail-box.large {
+  margin-bottom: 45px;
 }
 
 .detail-box h4 {
